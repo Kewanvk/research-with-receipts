@@ -98,17 +98,6 @@ NotebookLM is an excellent "librarian" — you ask a question, it finds the answ
 
 **In short:** NotebookLM is the engine; this skill is the methodology. You wouldn't submit raw database query results as a research report — same idea here.
 
-## Built From Real Pain
-
-This workflow was developed during a real academic research project involving 50+ board directors across 3 companies, extracting nationality, ethnicity, and education data from proxy statements. Along the way:
-
-- 19 out of 27 source screenshots were invalid (anti-scraping pages, 404s)
-- 8 directors had completely wrong education data
-- Keyword matching was mistaken for semantic proof
-- URLs were recorded but never verified as accessible
-
-Every verification rule in this skill exists because a real error happened without it.
-
 ## Project Structure
 
 ```
@@ -231,13 +220,3 @@ nlm login
 
 Skill 会引导你一步步完成整个流程。
 
-## 从真实踩坑中诞生
-
-这套工作流来自一个真实的学术研究项目——从 3 家公司的代理声明中提取 50+ 位董事的国籍、种族和教育数据。过程中踩了这些坑：
-
-- 27 张来源截图中有 19 张无效（反爬页面、404 错误）
-- 8 位董事的教育数据完全错误
-- 关键词匹配被当成了语义证据
-- 记录了来源 URL 但从未验证是否可访问
-
-**这个 skill 里的每一条验证规则，都是因为没有它时出过真实的错误。**
