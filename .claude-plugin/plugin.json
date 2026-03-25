@@ -1,0 +1,13 @@
+{
+  "name": "research-with-receipts",
+  "description": "Verified research skill for Claude Code — structured data extraction from documents with multi-round validation via NotebookLM. Every claim comes with a receipt.",
+  "version": "0.1.0",
+  "keywords": [
+    "research",
+    "verification",
+    "fact-checking",
+    "notebooklm",
+    "grounded-research",
+    "anti-hallucination"
+  ]
+}
