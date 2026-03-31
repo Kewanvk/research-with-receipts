@@ -63,13 +63,12 @@ pip3 install python-docx
 
 # Authenticate with NotebookLM (opens Chrome)
 nlm login
+
+# Install the skill (makes it permanently available in Claude Code)
+ln -s "$(pwd)/research-with-receipts/skills/research-with-receipts" ~/.claude/skills/
 ```
 
-### Run Claude Code with the plugin
-
-```bash
-claude --plugin-dir ./research-with-receipts
-```
+Restart Claude Code — the skill will appear in `/skills`.
 
 ## Usage
 
@@ -203,13 +202,12 @@ pip3 install python-docx
 
 # 登录 NotebookLM（会打开 Chrome 浏览器）
 nlm login
+
+# 安装 skill（永久生效，重启 Claude Code 后在 /skills 中可见）
+ln -s "$(pwd)/research-with-receipts/skills/research-with-receipts" ~/.claude/skills/
 ```
 
-### 启动
-
-```bash
-claude --plugin-dir ./research-with-receipts
-```
+重启 Claude Code，skill 会出现在 `/skills` 列表中。
 
 ## 使用方式
 
