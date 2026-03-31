@@ -59,7 +59,7 @@ git clone https://github.com/Kewanvk/research-with-receipts.git
 claude mcp add notebooklm npx notebooklm-mcp@latest
 
 # Install python-docx (for Word output)
-pip install python-docx
+pip3 install python-docx
 
 # Authenticate with NotebookLM (opens Chrome)
 nlm login
@@ -199,7 +199,7 @@ git clone https://github.com/Kewanvk/research-with-receipts.git
 claude mcp add notebooklm npx notebooklm-mcp@latest
 
 # 安装 python-docx（用于生成 Word 文档）
-pip install python-docx
+pip3 install python-docx
 
 # 登录 NotebookLM（会打开 Chrome 浏览器）
 nlm login
