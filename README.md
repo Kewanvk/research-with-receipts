@@ -49,24 +49,26 @@ Every data point gets a status:
 - A Google account (free tier works, 50 queries/day)
 - Chrome browser (for NotebookLM authentication)
 
-### Install the plugin
+### Install
 
 ```bash
+# Clone the repo
+git clone https://github.com/Kewanvk/research-with-receipts.git
+
 # Install NotebookLM MCP (required)
 claude mcp add notebooklm npx notebooklm-mcp@latest
 
 # Install python-docx (for Word output)
 pip install python-docx
 
-# Install this plugin
-claude plugin add github:Kewanvk/research-with-receipts
-```
-
-### First-time setup
-
-```bash
 # Authenticate with NotebookLM (opens Chrome)
 nlm login
+```
+
+### Run Claude Code with the plugin
+
+```bash
+claude --plugin-dir ./research-with-receipts
 ```
 
 ## Usage
@@ -190,21 +192,23 @@ NotebookLM 是一个很好的"图书管理员"——你问它什么，它帮你�
 ### 安装步骤
 
 ```bash
+# 克隆仓库
+git clone https://github.com/Kewanvk/research-with-receipts.git
+
 # 安装 NotebookLM MCP（必需）
 claude mcp add notebooklm npx notebooklm-mcp@latest
 
 # 安装 python-docx（用于生成 Word 文档）
 pip install python-docx
 
-# 安装本插件
-claude plugin add github:Kewanvk/research-with-receipts
-```
-
-### 首次使用
-
-```bash
 # 登录 NotebookLM（会打开 Chrome 浏览器）
 nlm login
+```
+
+### 启动
+
+```bash
+claude --plugin-dir ./research-with-receipts
 ```
 
 ## 使用方式
