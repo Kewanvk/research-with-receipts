@@ -19,8 +19,8 @@ A structured research workflow that extracts data from user-provided documents, 
 
 ## Prerequisites
 
-- **NotebookLM MCP**: Install via `claude mcp add notebooklm npx notebooklm-mcp@latest`. Requires a Google account (free tier: 50 queries/day). Run `nlm login` for first-time authentication.
-- **python-docx**: For Word document output. Install via `pip install python-docx`.
+- **NotebookLM MCP**: Install the CLI (`pipx install notebooklm-mcp-cli`), register the MCP server (`nlm setup add claude-code`), and install the skill (`nlm skill install claude-code`). Requires a Google account (free tier: 50 queries/day). Run `nlm login` for first-time authentication.
+- **python-docx**: For Word document output. Install via `pip3 install python-docx`.
 
 ## Seven-Step Workflow
 
